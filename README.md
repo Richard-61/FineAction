@@ -3,13 +3,15 @@ The official codebase of FineAction dataset. We will update the data and code of
 
 [[Arxiv version]](https://arxiv.org/abs/2105.11107)      [[TIP version]](https://ieeexplore.ieee.org/document/9934010?source=authoralert)
 
-**ToDo**
+<!-- **ToDo**
 
 - [ ] Update the VideoMAE feature on FineAction.
-- [ ] Update the code of reproduce codabases(BMN, ActionFormer) on FineAction.
+- [ ] Update the code of reproduce codabases(BMN, ActionFormer) on FineAction. -->
 
 
 ## 📰 News
+
+* **[2025-04-10]**: Update the download links of our FineAction.
 * **[2022-10-10]**: Our FineAction has been accepted by ***IEEE Transactions on Image Processing***.
 
 * **[2022-04-30]**: We have published competitions for FineAction on [DeeperAction Workshop@ECCV2022 Track 1](https://codalab.lisn.upsaclay.fr/competitions/4386).
@@ -19,17 +21,20 @@ The official codebase of FineAction dataset. We will update the data and code of
 
 
 
-## ⚡️ Data Download
+## ⚡️Update Data Download
+You can download the dataset from OpenDataLab https://openxlab.org.cn/datasets/OpenDataLab/FineAction
 
-* **Raw videos**: You should obey the terms and conditions and download them from our new  [competition pages](https://codalab.lisn.upsaclay.fr/competitions/4386).
+* **Raw videos**: https://openxlab.org.cn/datasets/OpenDataLab/FineAction/tree/main/raw/video
 
-* **Annotations**:  [BaiduYun](https://pan.baidu.com/share/init?surl=5VaXtK0Q9wAUx8vI6K2e4w) (Access Code: 64vp) or [Onedrive](https://onedrive.live.com/?authkey=%21AAfby1p1WScugZU&cid=A161026A47D6532C&id=A161026A47D6532C%2156204&parId=A161026A47D6532C%2156145&o=OneUp) 
+* **Annotations**:  https://openxlab.org.cn/datasets/OpenDataLab/FineAction/tree/main/raw/annotations_gt.json
 
-* **I3d feature**:  [BaiduYun](https://pan.baidu.com/share/init?surl=ZnR5Iw_7bcy7UWaOKZDVXw#list/path=%2F) (Access Code: vbf0) or [Onedrive](https://onedrive.live.com/?authkey=%21ADD1G%2DMJVnC9J2s&id=A161026A47D6532C%2156146&cid=A161026A47D6532C) 
+* **I3d feature**:  https://openxlab.org.cn/datasets/OpenDataLab/FineAction/tree/main/raw/i3d_feature
 
-* **I3d_100 feature**:  [BaiduYun](https://pan.baidu.com/share/init?surl=Le0bybOJvef1FGptplrtwQ#list/path=%2F) (Access Code: v2rp) or [Onedrive](https://onedrive.live.com/?cid=a161026a47d6532c&id=A161026A47D6532C%2156147&authkey=%21APLe0pprt1UpX38) 
+* **I3d_100 feature**:  https://openxlab.org.cn/datasets/OpenDataLab/FineAction/tree/main/raw/i3d_feature_100
 
-* **VideoMAE feature**:  [BaiduYun] or [Onedrive] 
+* **VideoMAE_h feature**: https://openxlab.org.cn/datasets/OpenDataLab/FineAction/tree/main/raw/mae_h_feature  
+* **VideoMAE_g feature**: https://openxlab.org.cn/datasets/OpenDataLab/FineAction/tree/main/raw/mae_g_feature
+* More details about videomae referring to https://github.com/OpenGVLab/VideoMAEv2/blob/master/docs/TAD.md
 
 
 
